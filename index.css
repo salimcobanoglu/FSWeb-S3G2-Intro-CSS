@@ -6,13 +6,12 @@
 .ustkutumetin {
   text-align: center;
   margin: auto;
-  margin-top: -50px;
+  margin-top: -15px;
 }
 
 .ustkutumetin h1 {
   font-size: 40px;
 }
-
 .ustkutumetin p {
   font-size: 25px;
 }
@@ -53,41 +52,37 @@
   height: 100px;
 }
 
+.altustkutu nav a {
+  font-size: 20px;
+  margin: 0 200px;
+  color: black;
+  display: inline-block;
+  padding: 20px;
+  border-radius: 20px;
+}
+.gezi {
+  background-color: #ff764e;
+}
+.bilgi {
+  background-color: #5ed3eb;
+}
+.karsi {
+  background-color: #ffcd69;
+}
+
+.altustkutu nav a:hover {
+  background: white;
+  color: blue;
+}
+
 footer {
+  height: 250px;
   background-color: #f9e7dc;
   color: white;
   background-image: url("assets/footer_img.jpg");
 }
 
-.footer nav a h2 {
-  background-color: #ff764e;
-  font-size: 30px;
-  color: white;
-  display: inline-block;
+.altustkutu {
+  background-color: #ddb9a3;
   padding: 20px;
-  border-radius: 20px;
-  margin-right: 300px;
-}
-
-.footer nav a h3 {
-  background-color: #5ed3eb;
-  font-size: 30px;
-  color: white;
-  display: inline-block;
-  padding: 20px;
-  border-radius: 20px;
-  margin-right: 250px;
-}
-.footer nav a h4 {
-  background-color: #ffcd69;
-  font-size: 30px;
-  color: white;
-  display: inline-block;
-  padding: 20px;
-  border-radius: 20px;
-  margin-left: 50px;
-}
-
-.footerimage img {
-  object-fit: cover;
 }
