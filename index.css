@@ -1,0 +1,93 @@
+* {
+  font-family: Roboto;
+  text-align: center;
+}
+
+.ustkutumetin {
+  text-align: center;
+  margin: auto;
+  margin-top: -50px;
+}
+
+.ustkutumetin h1 {
+  font-size: 40px;
+}
+
+.ustkutumetin p {
+  font-size: 25px;
+}
+
+.yanyana {
+  display: flex;
+}
+
+.altalta {
+  display: flex;
+  flex-direction: column;
+}
+
+.ortayatopla {
+  font-size: 25px;
+  width: 500px;
+  margin: auto;
+}
+
+.anabolum p {
+  background-color: #ddb9a3;
+  color: white;
+  padding: 2px;
+  font-size: 25px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.headerphoto img {
+  margin-left: 10px;
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
+}
+
+.icon img {
+  width: 100px;
+  height: 100px;
+}
+
+footer {
+  background-color: #f9e7dc;
+  color: white;
+  background-image: url("assets/footer_img.jpg");
+}
+
+.footer nav a h2 {
+  background-color: #ff764e;
+  font-size: 30px;
+  color: white;
+  display: inline-block;
+  padding: 20px;
+  border-radius: 20px;
+  margin-right: 300px;
+}
+
+.footer nav a h3 {
+  background-color: #5ed3eb;
+  font-size: 30px;
+  color: white;
+  display: inline-block;
+  padding: 20px;
+  border-radius: 20px;
+  margin-right: 250px;
+}
+.footer nav a h4 {
+  background-color: #ffcd69;
+  font-size: 30px;
+  color: white;
+  display: inline-block;
+  padding: 20px;
+  border-radius: 20px;
+  margin-left: 50px;
+}
+
+.footerimage img {
+  object-fit: cover;
+}
